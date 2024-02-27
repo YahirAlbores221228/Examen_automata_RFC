@@ -66,7 +66,7 @@ def center_window(window, width, height):
     window.geometry(f"{width}x{height}+{x_coordinate}+{y_coordinate}")
 
 root = tk.Tk()
-root.title("Verificación de la RFC")
+root.title("Verificación del RFC")
 
 ventana = Frame(root, width=300, height=150)
 ventana.pack()
